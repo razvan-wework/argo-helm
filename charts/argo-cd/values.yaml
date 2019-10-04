@@ -32,6 +32,7 @@ server:
 repoServer:
   containerPort: 8081
   servicePort: 8081
+  metricsPort: 8084
   image:
     repository: argoproj/argocd
     tag: v1.2.1
